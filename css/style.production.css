@@ -1,17 +1,6 @@
-/* down */
-/*  above */
-/* 3school*/
-/* Create four equal columns */
-/* On screens that are 992px wide or less, go from four columns to two columns */
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-/* */
 @keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-  to {
-    transform: translate(200px, 50px);
-  }
+  from { transform: translate(0, 50px); }
+  to { transform: translate(200px, 50px); }
 }
 
 .header {
@@ -42,7 +31,7 @@
 }
 
 .body {
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -58,7 +47,7 @@ ul {
 li a {
   display: block;
   padding: 8px;
-  background-color: #dddddd;
+  background-color: #ddd;
 }
 
 a {
@@ -119,7 +108,6 @@ textarea {
   display: inline-block;
   margin: 4px 2px;
   transition-duration: 1.4s;
-  cursor: pointer;
 }
 
 .button:hover {
@@ -132,7 +120,6 @@ textarea {
   transform: translateY(4px);
 }
 
-/* footer div*/
 div {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -210,7 +197,7 @@ td {
   flex: 1 1 100px;
   flex-flow: row;
   flex-direction: row;
-  background-color: #ffffff;
+  background-color: #fff;
   text-align: center;
 }
 
@@ -220,11 +207,11 @@ td {
 
 .grid-container {
   display: grid;
+  display: flex;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
   background-color: #2196f3;
   padding: 10px;
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -253,9 +240,11 @@ td {
     flex-direction: column;
     align-items: stretch;
   }
+
   .form-inline input {
     margin: 10px 0;
   }
+
   .page-footer {
     margin: 10px 0;
     flex-direction: column;
@@ -291,12 +280,13 @@ td {
   .grid-container {
     grid-gap: 10px;
   }
+
   .column:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
+
   h1 {
     font-size: 22px;
   }
 }
-/*# sourceMappingURL=style.production.css.map */
