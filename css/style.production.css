@@ -69,6 +69,10 @@ a h3 {
   font-weight: 700;
 }
 
+p {
+  font-size: 1.875em; /* 14px/16=0.875em */
+}
+
 input[type="text"] {
   width: 50%;
   height: 40%;
@@ -127,6 +131,7 @@ div {
 }
 
 table {
+  margin-top: 10px;
   border: 1px solid black;
   width: 60%;
 }
@@ -182,23 +187,23 @@ td {
   background-color: royalblue;
 }
 
-.page-footer {
-  vertical-align: middle;
-  margin: 5px 10px 5px 0;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-}
-
 .page-footer > div {
   clear: both;
   display: inline-block;
   display: flex;
+  margin-top: 10px;
   flex: 1 1 100px;
   flex-flow: row;
   flex-direction: row;
   background-color: #fff;
   text-align: center;
+}
+
+.page-footer {
+  margin: 10px 0;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #d8d8d8;
 }
 
 .grid__item {
@@ -222,6 +227,10 @@ td {
   font-size: 30px;
 }
 
+main {
+  background-color: #d8d8d8;
+}
+
 .column {
   flex: 25%;
   padding: 20px;
@@ -243,12 +252,6 @@ td {
 
   .form-inline input {
     margin: 10px 0;
-  }
-
-  .page-footer {
-    margin: 10px 0;
-    flex-direction: column;
-    align-items: stretch;
   }
 }
 
