@@ -203,7 +203,7 @@ td {
   margin: 10px 0;
   flex-direction: column;
   align-items: stretch;
-  background-color: #d8d8d8;
+  background-color:#f2f2f2;
 }
 
 .grid__item {
@@ -228,7 +228,7 @@ td {
 }
 
 main {
-  background-color: #d8d8d8;
+  background-color: #f2f2f2;
 }
 
 .column {
